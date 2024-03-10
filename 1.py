@@ -14,7 +14,7 @@ response = requests.get("http://api.nbp.pl/api/exchangerates/rates/A/GBP/")
 rgbp = response.json()["rates"]
 gbp = float(rgbp[0]["mid"])
 
-if kuplubsprze == "kupić":
+if kuplubsprze == "kupić" or "kupic":
     hajs = float(input("za ile chcesz kupić: "))
     if waluta == "usd":
         print(f"kupisz za to {round(hajs/usd, 2)} dolarów")
