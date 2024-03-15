@@ -1,3 +1,5 @@
+# Przygotuj sobie array/obiekt z wszystkimi planetami i wartością grawitacji. Dzięki temu będziesz mógł dodawaać kolejne wartości do obiektów i nie będziesz musial użwyać tyle is'ów.
+
 waga = float(input("podaj swoją wagę: "))
 planeta = input("podaj planetę gdzie chciałbyś się znaleźć: ").capitalize()
 if planeta == "Merkury":
